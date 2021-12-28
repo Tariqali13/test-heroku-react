@@ -1,12 +1,8 @@
 import React from 'react';
 import MainTemplate from '../layouts/main-template';
-// import {
-//     // Stats,
-//     // LineChart,
-//     // TopSmallChart,
-//     // HundredTrades,
-//     // TopCharts
-// } from './components';
+import {
+    Stats,
+} from './components';
 
 const Market = () => {
 
@@ -17,7 +13,7 @@ const Market = () => {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="home-tab">
-                                {/*<Stats/>*/}
+                                <Stats/>
                                 {/*<LineChart/>*/}
                                 {/*<div className="row">*/}
                                 {/*    <TopSmallChart heading="Top Buyers"/>*/}

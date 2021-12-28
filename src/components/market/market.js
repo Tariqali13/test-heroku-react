@@ -1,16 +1,5 @@
 import React from 'react';
 import MainTemplate from '../layouts/main-template';
-import {
-    Stats,
-    LineChart,
-    BarChart,
-    CustomTable,
-    ShortTables,
-    PieChart,
-    TopSmallChart,
-    HundredTrades,
-    TopCharts
-} from './components';
 
 const Market = () => {
 

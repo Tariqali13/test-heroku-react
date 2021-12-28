@@ -2,7 +2,7 @@ import React from 'react';
 import MainTemplate from '../layouts/main-template';
 import {
     // Stats,
-    LineChart,
+    // LineChart,
     // TopSmallChart,
     // HundredTrades,
     // TopCharts

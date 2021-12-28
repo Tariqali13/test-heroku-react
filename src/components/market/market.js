@@ -1,8 +1,8 @@
 import React from 'react';
 import MainTemplate from '../layouts/main-template';
 import {
-    Stats,
-    // LineChart,
+    // Stats,
+    LineChart,
     // TopSmallChart,
     // HundredTrades,
     // TopCharts
@@ -22,8 +22,8 @@ const Market = () => {
                                 <div className="tab-content tab-content-basic">
                                     <div className="tab-pane fade show active" id="overview" role="tabpanel"
                                          aria-labelledby="overview">
-                                        <Stats/>
-                                        {/*<LineChart/>*/}
+                                        {/*<Stats/>*/}
+                                        <LineChart/>
                                         {/*<div className="row">*/}
                                         {/*    <TopSmallChart heading="Top Buyers"/>*/}
                                         {/*    <TopSmallChart heading="Top Sellers"/>*/}

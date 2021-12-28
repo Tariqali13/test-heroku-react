@@ -1,5 +1,5 @@
 import React from 'react';
-// import ApexChart from '../../apex-chart';
+import ApexChart from '../../apex-chart';
 import {chartOptions} from '../../constants';
 import {CustomTable} from './index';
 import { latestTransactions } from '../../constants/market-constants';
@@ -18,18 +18,18 @@ const LineChart = () => {
                                         <h4 className="card-title card-title-dash">Market Index</h4>
                                     </div>
                                 </div>
-                                {/*<ApexChart*/}
-                                {/*    height={560}*/}
-                                {/*    options={chartOptions}*/}
-                                {/*    series={[{*/}
-                                {/*        name: "Desktops",*/}
-                                {/*        data: [10, 41, 35, 51, 49, 62, 69, 91, 148]*/}
-                                {/*    }, {*/}
-                                {/*        name: "Desktops",*/}
-                                {/*        data: [1, 4, 335, 21, 42, 82, 29, 31, 248]*/}
-                                {/*    }]}*/}
-                                {/*    type="line"*/}
-                                {/*/>*/}
+                                <ApexChart
+                                    height={560}
+                                    options={chartOptions}
+                                    series={[{
+                                        name: "Desktops",
+                                        data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+                                    }, {
+                                        name: "Desktops",
+                                        data: [1, 4, 335, 21, 42, 82, 29, 31, 248]
+                                    }]}
+                                    type="line"
+                                />
                             </div>
                         </div>
                     </div>

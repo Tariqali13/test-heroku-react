@@ -2,10 +2,10 @@ import React from 'react';
 import MainTemplate from '../layouts/main-template';
 import {
     Stats,
-    LineChart,
-    TopSmallChart,
-    HundredTrades,
-    TopCharts
+    // LineChart,
+    // TopSmallChart,
+    // HundredTrades,
+    // TopCharts
 } from './components';
 
 const Market = () => {
@@ -23,16 +23,16 @@ const Market = () => {
                                     <div className="tab-pane fade show active" id="overview" role="tabpanel"
                                          aria-labelledby="overview">
                                         <Stats/>
-                                        <LineChart/>
-                                        <div className="row">
-                                            <TopSmallChart heading="Top Buyers"/>
-                                            <TopSmallChart heading="Top Sellers"/>
-                                            <TopSmallChart heading="Top Movers"/>
-                                        </div>
-                                        <div className="row mb-3">
-                                            <HundredTrades/>
-                                        </div>
-                                        <TopCharts />
+                                        {/*<LineChart/>*/}
+                                        {/*<div className="row">*/}
+                                        {/*    <TopSmallChart heading="Top Buyers"/>*/}
+                                        {/*    <TopSmallChart heading="Top Sellers"/>*/}
+                                        {/*    <TopSmallChart heading="Top Movers"/>*/}
+                                        {/*</div>*/}
+                                        {/*<div className="row mb-3">*/}
+                                        {/*    <HundredTrades/>*/}
+                                        {/*</div>*/}
+                                        {/*<TopCharts />*/}
                                     </div>
                                 </div>
                             </div>

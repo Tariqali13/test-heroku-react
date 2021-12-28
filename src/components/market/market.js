@@ -1,12 +1,12 @@
 import React from 'react';
 import MainTemplate from '../layouts/main-template';
-import {
-    // Stats,
-    // LineChart,
-    // TopSmallChart,
-    // HundredTrades,
-    // TopCharts
-} from './components';
+// import {
+//     // Stats,
+//     // LineChart,
+//     // TopSmallChart,
+//     // HundredTrades,
+//     // TopCharts
+// } from './components';
 
 const Market = () => {
 
